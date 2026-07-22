@@ -168,9 +168,10 @@ Complete the exercise in the space below:
 
 function calculateTip(amtBill, percentage) {
 
-    let amt = amtBill % percentage
+    let tip = (amtBill *percentage)/100
+    
 
-    return amt
+    return tip
 
 }
 
