@@ -337,9 +337,9 @@ This function should return the count of
 arguments passed to it when called. 
 Complete the exercise in the space below: */
 
-function numArgs() {
+function numArgs(...args) {
 
-    return arguments.length;
+    return args.length
     
 }
 
