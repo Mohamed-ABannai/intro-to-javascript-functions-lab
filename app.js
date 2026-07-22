@@ -322,6 +322,7 @@ function createUsername(Fname, Lname) {
     let s = Fname.length + Lname.length
 
     return `${Fname.substring(0, 3)}${Lname.substring(0, 3)}${s}`
+    
 
 
 }
