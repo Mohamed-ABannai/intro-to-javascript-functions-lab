@@ -253,6 +253,10 @@ function basicCalculator(num1, num2, str) {
 
         return num1 / num2
     }
+    else{
+
+        return 'error'
+    }
 
 }
 
